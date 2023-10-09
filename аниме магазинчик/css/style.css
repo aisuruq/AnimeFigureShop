@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway';
+}
+.main { 
+    width: 100%;
+    height: 800px;
+    display: flex; 
+    justify-content: center; 
+} 
+.container-header{
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    background-color: #9B111E;
+}
+.header { 
+    width: 1920px;
+    height: 112px;  
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #9B111E;
+    margin: 0 auto;
+} 
+.glavnaystranica{
+    width: 1920px;
+    height:720px;
+}
+.logo{
+    padding-top: 5px;
+    height: 82px;
+    width: 106px;
+}
+.menu { 
+    height: 50px; 
+    width: 396px; 
+    text-align: center;  
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 45px;
+    margin-left: -30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+} 
+#textpodmenu{
+    text-decoration: none;
+    color: black; 
+}
+.blockpodmenu{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.avtorizacia { 
+    height: 50px; 
+    width: 250px; 
+    text-align: center;  
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 45px;
+    margin-right: 390px;
+}
+.kypitnow{ 
+    height: 50px; 
+    width: 150px; 
+    text-align: center;  
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 45px;
+    margin-left: -20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+} 
+.logotip{
+    font-family: 'Raleway';
+    margin-left: 370px;
+    margin-top: -1px;
+    line-height: 19px;   
+    text-decoration: overline;
+    color: white; 
+    font-weight: bold;
+    font-weight: 400px;
+    font-size: 15px;
+}
+a{
+    margin: 0 auto;
+}
+#korzina{
+    margin-top:-10px;
+}
+#login{
+    margin-top:-10px;
+}
+#heart{
+    margin-top:-6px;
+}
+.container-levo{
+    width: 523px;
+    height: 300px;
+    /* background-color: grey; */
+    margin-top: 180px;
+    margin-left: 360px;
+    color: #9B111E;
+}
+h1{
+    font-size:  56px;
+}
+h4{
+    font-size: 20px;
+    font-weight:200;
+}
+.zagolovoknapmain{
+    margin-bottom: -10px;
+    margin-left: 45px;
+}
+.maimcnopka{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 180px;
+    margin-left: 375px;
+    color: #9B111E;
+}
+#maintext{
+    padding-top: 30px;
+    color: black;
+}
+#mainbutton{
+    height: 70px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #9B111E;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px black;
+}
+p{
+    font-size: 18px;
+}
+.container-pravo{
+    /* background-color: grey; */
+    margin-left: 850px;
+    min-height: 200px;
+    margin-top: -430px;
+    width: 500px;
+}
+.textkartinka{
+    height: 60px;
+    width: 325px;
+    background-color: #9B111E;
+    border-radius: 15px;
+    margin-top: -373px;
+    margin-left: 379px;
+}
+.textkartinka1{
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+.whiteelipce{
+    border-radius: 50%;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-top: -123px;
+    margin-left: 231px;
+}
+.cena{
+    border-radius: 15px;
+    background-color: #9B111E;
+    height: 60px;
+    width: 110px;
+    margin-top: 130px;
+    margin-left: 408px;
+}
+#new{
+    padding-top: -20px;
+    padding-left: 10px;
+    color: white;
+    font-size: 27px;
+}
+#old{
+    padding-top: 2px;
+    padding-left: 50px;
+    color: white;
+    font-size: 18px;
+    text-decoration: line-through black;
+}
+.popularfigure{
+    width: 950px;
+    padding-top: 65px;
+    margin-left: 380px;
+    text-align: center;  
+    display: flex; 
+    justify-content: space-between; 
+}
+.Cyberpunk_2077_logo{
+    height: 70px;
+    width: 150px;
+}
+.demonslayer{
+    height: 85px;
+    width: 120px;
+}
+.myhero{
+    height: 80px;
+    width: 150px;
+}
+.sagao{
+    height: 80px;
+    width: 150px;
+}
+.naruto{
+    height: 80px;
+    width: 130px;
+}
+.main1{
+    width: 100%;
+    min-height: 920px;
+    background-color: #9b111fc0;
+    display: flex; 
+    justify-content: center; 
+}
+.kartochki h2{
+    font-size:  48px;
+    color: white;
+    padding-top: 50px;
+    margin-left: 360px;
+}
+.kartochki1{
+    width: 1150px;
+    height: 760px;
+    margin-left: 360px;
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.figurka {
+    width: 270px;
+    height: 360px;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.25);
+    
+ }
+ .figurka img {
+    display: block;
+    width: 84%;
+    border-radius: 30px;
+    padding: 20px 20px 0 20px;
+ }
+ .figurka-text {
+    background: #fafafa;
+    padding: 10px 0 13px 20px;
+    border-radius: 20px;
+ }
+ .h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+ }
+ .price {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+ }
+ .price-old {
+    font-size: 14px;
+    color: black;
+    margin-left: -5px;
+    font-weight: bold;
+ }
+ .button-buy {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    background: #9B111E;
+    color: white;
+    margin-left: 25px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 20px;
+ }
+ .f-list{
+    margin-top: 10px;
+    margin-bottom: 5px
+ }
+ .kartochki{
+    width: 1920px;
+    height: 920px;
+ }
+ .main2{
+    width: 100%;
+    height: 700px;
+    display: flex; 
+    justify-content: center; 
+ }
+ .akcii{
+    width: 1250px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+ }
+ .main2 h2{
+    font-size:  48px;
+    color: #9B111E;
+    padding-top: 130px;
+    margin-left: 40px;
+}
+.skidka15{
+    width: 570px;
+    height: 320px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.tovartrend{
+    height: 700px;
+    width: 1920px;
+}
+.container-futter{
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+    background-color: #9B111E;
+}
+.futter { 
+    width: 1920px;
+    height: 285px;  
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #9B111E;
+    margin: 0 auto;
+    flex-direction: column;
+} 
+.logotip1{
+    font-family: 'Raleway';
+    margin-left: 360px;
+    margin-top: 90px;
+    line-height: 19px;   
+    text-decoration: overline;
+    color: white; 
+    font-weight: bold;
+    font-size: 15px;
+}
+#textpodmenu1{
+    text-decoration: none;
+    color: white; 
+}
+.menu1 { 
+    height: 50px; 
+    width: 600px; 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 120px ;
+    
+} 
+.container-futter p{
+    color: white;  
+    display: flex;
+    margin-left: 180px;
+    padding-bottom: 20px;
+    width: 450px;
+    text-align: center;
+}
+.vk{
+    height: 32px;
+    width: 32px;
+}
+.menu2 { 
+    height: 50px; 
+    width: 300px; 
+    display: flex; 
+    justify-content: space-between; 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 220px;
+} 
+.logo1{
+    padding-top: 5px;
+    height: 85px;
+    width: 125px;
+}
